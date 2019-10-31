@@ -1,0 +1,167 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  outline: none;
+}
+
+/* COLORES */
+.red-fem-bg {
+  background-color: #ff0000;
+}
+
+.orange-fem-bg {
+  background-color: #FF8D00;
+}
+
+.blue-fem-bg {
+  background-color: #0000FF;
+}
+
+.purple-fem-bg {
+  background-color: #9C27B0;
+}
+
+.green-fem-bg {
+  background-color: #4AC364;
+}
+
+.yellow-fem-bg {
+  background-color: #FFFF00;
+}
+
+.btn-floating:hover {
+  background-color: #ff0000;
+}
+
+.large {
+  font-size: 3rem;
+}
+
+#grid {
+  position: fixed;
+  width: 100%;
+  z-index: -2;
+}
+
+#grid .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#grid .row .col {
+  padding: 0;
+}
+
+#grid .grid-line {
+  height: 100vh;
+  border-left: 1px solid #000;
+  opacity: .2;
+}
+
+#grid .grid-line--left {
+  border-right: 1px solid #000;
+  opacity: .2;
+}
+
+.social {
+  position: fixed;
+  margin-top: 1em;
+  right: 2%;
+}
+
+.social ul li {
+  line-height: 5;
+}
+
+.heart {
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.fixed-top {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  /*background: #f50057;*/
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-left: 125px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.abs {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.wrapper-logo {
+  margin-top: 1em;
+  max-width: 7em;
+  display: inline-block;
+}
+
+.wrapper-logo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.hder h3 {
+  font-size: 5em;
+}
+
+.hder p {
+  font-size: 4em;
+}
+
+.hder p i {
+  font-size: .7em;
+  color: #b0bec5;
+}
+
+.small-shape {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #e0e0e0;
+  border-radius: 12px;
+  margin-left: -60px;
+  right: 100px;
+}
+
+.c-green {
+  position: absolute;
+  right: 15%;
+  width: 120px;
+  height: 120px;
+  /* background: #00F1C9;*/
+  border-radius: 12px;
+  margin-left: -60px;
+  margin-top: 800px;
+}
+
+.cd-skills .card-title {
+  color: #455a64;
+  letter-spacing: 30px;
+}
+
+.skills i {
+  color: #f50057;
+}
+
+.skills li span {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+/*# sourceMappingURL=style-main.css.map */
