@@ -1,31 +1,28 @@
-.animate {
-  stroke-dasharray: 100;
-  stroke-dashoffset: 100;
-  -webkit-animation: animate 3s linear infinite;
-  animation: animate 3s linear infinite;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-  stroke-dasharray: 100;
-}
-
-@keyframes animate {
-  0% {
+/*.animate{
+    stroke-dasharray: 100;
     stroke-dashoffset: 100;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
+    -webkit-animation: animate 3s linear infinite;
+    animation: animate 3s linear infinite;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    stroke-dasharray: 100;
 }
-
-@-webkit-keyframes animate {
-  0% {
-    stroke-dashoffset: 100;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
+@keyframes animate{
+    0% {
+        stroke-dashoffset: 100;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
 }
-
+@-webkit-keyframes animate{
+    0% {
+        stroke-dashoffset: 100;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}*/
 body {
   position: relative;
   margin: 0;
@@ -189,5 +186,39 @@ a {
   margin-left: -60px;
   margin-top: 200px;
   z-index: -1;
+}
+
+.letter {
+  display: inline-block;
+}
+
+.delay-fast1 {
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
+}
+
+.delay-fast2 {
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+}
+
+.delay-fast3 {
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+}
+
+.delay-fast4 {
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.delay-fast5 {
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+.delay-fast6 {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
 }
 /*# sourceMappingURL=style-main.css.map */
