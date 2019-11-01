@@ -1,4 +1,12 @@
 /* COLORES */
+$redFem:#ff0000;
+$orangeFem:#FF8D00;
+$yellowFem:#FFFF00;
+$greenFem:#4AC364;
+$blueFem:#0000FF;
+$purpleFem:#9C27B0;
+$grisFem:#828181;
+
 .red-fem-bg{
     background-color: #ff0000;
 }
@@ -64,11 +72,11 @@
 
 .fixed-top {
     position: fixed;
-    width: 200px;
-    height: 200px;
-    /*background: #f50057;*/
+    width: 500px;
+    height: 500px;
+    background: $grisFem;
     border-radius: 12px;
-    margin-top: 20px;
+    margin-top: -250px;
     margin-left: 125px;
     overflow: hidden;
     z-index: -1;
@@ -116,31 +124,23 @@
 
 .c-green {
     position: absolute;
-    right: 15%;
-    width: 120px;
-    height: 120px;
-   /* background: #00F1C9;*/
+    right: 5%;
+    width: 50px;
+    height: 50px;
+    background: $grisFem;
     border-radius: 12px;
     margin-left: -60px;
     margin-top: 800px;
+    z-index: -1;
 }
-
-.cd-skills{
-    .card-title{
-        color:#455a64;
-        letter-spacing: 30px;
-    }
-}
-.skills{
-    i{
-        color: #f50057;
-    }
-    li{
-        span{
-            font-size: 20px;
-            margin-bottom: 5px;
-            font-weight: 300;
-        }
-        
-    }
+.c3{
+    position: absolute;
+    right: 15%;
+    width: 50px;
+    height: 50px;
+    background:$grisFem;
+    border-radius: 12px;
+    margin-left: -60px;
+    margin-top: 200px;
+    z-index: -1;
 }
