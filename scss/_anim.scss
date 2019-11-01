@@ -1,0 +1,25 @@
+.animate{
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    -webkit-animation: animate 3s linear infinite;
+    animation: animate 3s linear infinite;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    stroke-dasharray: 100;
+}
+@keyframes animate{
+    0% {
+        stroke-dashoffset: 100;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+@-webkit-keyframes animate{
+    0% {
+        stroke-dashoffset: 100;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}

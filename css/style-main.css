@@ -1,3 +1,31 @@
+.animate {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  -webkit-animation: animate 3s linear infinite;
+  animation: animate 3s linear infinite;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  stroke-dasharray: 100;
+}
+
+@keyframes animate {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes animate {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
 body {
   position: relative;
   margin: 0;
@@ -88,11 +116,11 @@ a {
 
 .fixed-top {
   position: fixed;
-  width: 200px;
-  height: 200px;
-  /*background: #f50057;*/
+  width: 500px;
+  height: 500px;
+  background: #828181;
   border-radius: 12px;
-  margin-top: 20px;
+  margin-top: -250px;
   margin-left: 125px;
   overflow: hidden;
   z-index: -1;
@@ -141,27 +169,25 @@ a {
 
 .c-green {
   position: absolute;
-  right: 15%;
-  width: 120px;
-  height: 120px;
-  /* background: #00F1C9;*/
+  right: 5%;
+  width: 50px;
+  height: 50px;
+  background: #828181;
   border-radius: 12px;
   margin-left: -60px;
   margin-top: 800px;
+  z-index: -1;
 }
 
-.cd-skills .card-title {
-  color: #455a64;
-  letter-spacing: 30px;
-}
-
-.skills i {
-  color: #f50057;
-}
-
-.skills li span {
-  font-size: 20px;
-  margin-bottom: 5px;
-  font-weight: 300;
+.c3 {
+  position: absolute;
+  right: 15%;
+  width: 50px;
+  height: 50px;
+  background: #828181;
+  border-radius: 12px;
+  margin-left: -60px;
+  margin-top: 200px;
+  z-index: -1;
 }
 /*# sourceMappingURL=style-main.css.map */
