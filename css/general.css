@@ -2,7 +2,8 @@
     padding: .5em;
 }
 .somos{
-    border:.5px solid #4AC364;
+    border:1px solid #b7b8bd;
     padding: 2em;
-    background-color: #fff;
+    /*background-color: #fff;*/
+    backdrop-filter: blur(62px);
 }
