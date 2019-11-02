@@ -80,6 +80,15 @@ $grisFem:#828181;
     margin-left: 125px;
     overflow: hidden;
     z-index: -1;
+    @media(max-width:768px){
+        width: 200px;
+        height: 200px;
+        margin-top: -50px;
+    }
+    @media(max-width:425px){
+        width: 100px;
+        height: 100px;
+    }
 }
 .abs{
     position: absolute;

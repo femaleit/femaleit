@@ -123,6 +123,21 @@ a {
   z-index: -1;
 }
 
+@media (max-width: 768px) {
+  .fixed-top {
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .fixed-top {
+    width: 100px;
+    height: 100px;
+  }
+}
+
 .abs {
   position: absolute;
   width: 100%;
