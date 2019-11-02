@@ -7,3 +7,11 @@
     /*background-color: #fff;*/
     backdrop-filter: blur(62px);
 }
+.logo{
+    letter-spacing: 8px;
+}
+@media(max-width:425px){
+.logo{
+    letter-spacing: 0px;
+    }
+}
