@@ -32,3 +32,15 @@ footer > a:nth-child(3) i{
 .text-bg-color{
     font-size:1rem;
 }
+.btn-up{
+    display: none;
+}
+.btn-up i{
+    font-size: 30px;
+    color: #000000;
+}
+.fxd{
+    position: fixed;
+    top:15px;
+    right: 30px;
+}
